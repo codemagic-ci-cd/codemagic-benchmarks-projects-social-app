@@ -20,7 +20,7 @@ workflows:
           XCODE_SCHEME: "Bluesky" # <-- Put the name of your Xcode scheme here
           BUNDLE_ID: "cm.blueskyweb.app" # <-- Put your Bundle Id here e.g com.domain.myapp
           APP_ID: 6480049997 # <-- Put the app id number here. This is found in App Store Connect > App > General > App Information
-      xcode: 14.2    
+      xcode: latest  
       java: 17
     cache:
      cache_paths:
