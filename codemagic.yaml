@@ -6,7 +6,7 @@ workflows:
  react-native-ios-android:
     name: React Native iOS and Android
     max_build_duration: 120
-    instance_type: mac_mini_m1
+    # instance_type: mac_mini_m1
     # integrations:
     #   app_store_connect: Codemagic
     environment:
